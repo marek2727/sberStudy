@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.HashSet;
+
 class ForwardList {
     int data;     // значение
     ForwardList next;   // ссылка на следующий элемент
@@ -21,6 +23,10 @@ class ForwardList {
     }
 
     void findValue(ForwardList head1, ForwardList head2){
+        System.out.println("Исходный вид списков: ");
+        printList(head1);
+        printList(head2);
+
         ForwardList current1 = head1;
         ForwardList current2 = head2;
 
@@ -73,6 +79,32 @@ class ForwardList {
         }
     }
 
+    int hash(ForwardList head1, ForwardList head2){
+        System.out.println("\nИсходный вид списков: ");
+        printList(head1);
+        printList(head2);
+
+        HashSet<Integer> set1 = new HashSet<Integer>(); // объявляем hashset
+
+        // заполняем HashSet данными из списка
+        while (head1 != null){
+            set1.add(head1.data);
+            head1 = head1.next;
+        }
+
+        System.out.println("Вид HashSet после копирования в него одного из списков: " + set1);
+
+        // проверка совпадений данных второго списка и HashSet
+        while (head2 != null){
+            if (set1.contains(head2.data)){
+                System.out.println("Одинаковые элементы: " + head2.data);
+            }
+            head2 = head2.next;
+        }
+
+        return 0;
+    }
+
     ForwardList pop(ForwardList head){
         System.out.println("Удаляемое значение: " + head.data); // печатаем удаляемое значение
         head = head.next; // начало списка делаем со следующего элемента
@@ -104,10 +136,9 @@ public class Main {
         head2 = list.push(head2, 3);
         head2 = list.push(head2, 5);
 
-        System.out.println("Исходный вид списков: ");
-        list.printList(head1);
-        list.printList(head2);
-        list.findValue(head1,head2);
+        list.findValue(head1,head2); // первый метод решения, путём приравнивания размеров списков.
+        list.hash(head1,head2); // второй метод решения, путём копирования одного списка в HashSet, а затем проверка
+                                // данных второго списка на наличие в HashSet.
         //head1 = list.pop(head1);  // удалить элемент с начала списка
     }
 }
