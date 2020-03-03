@@ -79,7 +79,7 @@ class ForwardList {
         }
     }
 
-    int hash(ForwardList head1, ForwardList head2){
+    void hash(ForwardList head1, ForwardList head2){
         System.out.println("\nИсходный вид списков: ");
         printList(head1);
         printList(head2);
@@ -101,8 +101,6 @@ class ForwardList {
             }
             head2 = head2.next;
         }
-
-        return 0;
     }
 
     ForwardList pop(ForwardList head){
