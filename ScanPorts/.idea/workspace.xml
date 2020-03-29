@@ -1,37 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c517e3a-d3cf-46d2-85c9-4999a02f7303" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanPorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScanPorts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ScanPorts/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="ProjectId" id="1ZaJRALYslxamYjvjyoIniXRk8e" />
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZlC56OVL1AeFz70mGweAZfHHnw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="ScanPorts" />
-      <option name="PROGRAM_PARAMETERS" value="192.168.1.2-192.168.1.4 139-150" />
+      <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1-2,87.240.139.194,160.153.136.3 -p 80-82,443,631,888-889" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -49,12 +83,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c517e3a-d3cf-46d2-85c9-4999a02f7303" name="Default Changelist" comment="" />
-      <created>1585071260571</created>
+      <changelist id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="" />
+      <created>1585404108000</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585071260571</updated>
+      <updated>1585404108000</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="59" width="800" height="684" key="#Inspections" timestamp="1585406916190">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="313" y="59" width="800" height="684" key="#Inspections/70.27.1296.741@70.27.1296.741" timestamp="1585406916190" />
+    <state x="128" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585478206468">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="128" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1585478206468" />
+    <state x="439" y="101" width="558" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1585415342994">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="439" y="101" width="558" height="599" key="#com.intellij.ide.util.MemberChooser/70.27.1296.741@70.27.1296.741" timestamp="1585415342994" />
+    <state x="423" y="67" width="580" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585404312080">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="423" y="67" width="580" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/70.27.1296.741@70.27.1296.741" timestamp="1585404312080" />
+    <state x="451" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585415482688">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="451" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1296.741@70.27.1296.741" timestamp="1585415482688" />
+    <state width="1250" height="190" key="GridCell.Tab.0.bottom" timestamp="1585478542622">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="190" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585478542622" />
+    <state width="1250" height="190" key="GridCell.Tab.0.center" timestamp="1585478542620">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="190" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585478542620" />
+    <state width="1250" height="190" key="GridCell.Tab.0.left" timestamp="1585478542618">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="190" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585478542618" />
+    <state width="1250" height="190" key="GridCell.Tab.0.right" timestamp="1585478542621">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="190" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585478542621" />
   </component>
 </project>
