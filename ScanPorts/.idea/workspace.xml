@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForwardLists/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ForwardLists/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForwardLists/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ForwardLists/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveElement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveElement/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveElement/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanPorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScanPorts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ScanPorts/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForwardLists" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -112,21 +102,25 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="451" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1296.741@70.27.1296.741" timestamp="1585415482688" />
-    <state width="1250" height="190" key="GridCell.Tab.0.bottom" timestamp="1585478542622">
+    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585479559407">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585478542622" />
-    <state width="1250" height="190" key="GridCell.Tab.0.center" timestamp="1585478542620">
+    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1585479559406" />
+    <state width="1250" height="190" key="GridCell.Tab.0.bottom" timestamp="1585479560927">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585478542620" />
-    <state width="1250" height="190" key="GridCell.Tab.0.left" timestamp="1585478542618">
+    <state width="1250" height="190" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585479560927" />
+    <state width="1250" height="190" key="GridCell.Tab.0.center" timestamp="1585479560926">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585478542618" />
-    <state width="1250" height="190" key="GridCell.Tab.0.right" timestamp="1585478542621">
+    <state width="1250" height="190" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585479560926" />
+    <state width="1250" height="190" key="GridCell.Tab.0.left" timestamp="1585479560925">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585478542621" />
+    <state width="1250" height="190" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585479560925" />
+    <state width="1250" height="190" key="GridCell.Tab.0.right" timestamp="1585479560926">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="190" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585479560926" />
   </component>
 </project>
