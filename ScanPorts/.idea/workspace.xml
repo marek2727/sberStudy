@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ForwardLists/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ForwardLists/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ForwardLists/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ForwardLists/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RemoveElement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveElement/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RemoveElement/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveElement/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonResultOfScan.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsonResultOfScan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="ScanPorts" />
-      <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1-2,87.240.139.194,160.153.136.3 -p 80-82,443,631,888-889" />
+      <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1-2,87.240.139.194,160.153.136.3-5 -p 80-82,443,631,888-889" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -86,10 +85,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="313" y="59" width="800" height="684" key="#Inspections/70.27.1296.741@70.27.1296.741" timestamp="1585406916190" />
-    <state x="128" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585478206468">
+    <state x="128" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585653618690">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="128" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1585478206468" />
+    <state x="128" y="52" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1585653618690" />
     <state x="439" y="101" width="558" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1585415342994">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -106,21 +105,25 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1585479559406" />
-    <state width="1250" height="190" key="GridCell.Tab.0.bottom" timestamp="1585479560927">
+    <state width="1250" height="142" key="GridCell.Tab.0.bottom" timestamp="1585654071849">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585479560927" />
-    <state width="1250" height="190" key="GridCell.Tab.0.center" timestamp="1585479560926">
+    <state width="1250" height="142" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585654071849" />
+    <state width="1250" height="142" key="GridCell.Tab.0.center" timestamp="1585654071841">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585479560926" />
-    <state width="1250" height="190" key="GridCell.Tab.0.left" timestamp="1585479560925">
+    <state width="1250" height="142" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585654071841" />
+    <state width="1250" height="142" key="GridCell.Tab.0.left" timestamp="1585654071840">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585479560925" />
-    <state width="1250" height="190" key="GridCell.Tab.0.right" timestamp="1585479560926">
+    <state width="1250" height="142" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585654071840" />
+    <state width="1250" height="142" key="GridCell.Tab.0.right" timestamp="1585654071841">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="190" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585479560926" />
+    <state width="1250" height="142" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585654071841" />
+    <state x="70" y="27" width="1286" height="741" key="new project wizard" timestamp="1585654069498">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="70" y="27" width="1286" height="741" key="new project wizard/70.27.1296.741@70.27.1296.741" timestamp="1585654069498" />
   </component>
 </project>

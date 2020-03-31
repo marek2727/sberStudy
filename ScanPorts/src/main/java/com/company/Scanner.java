@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.util.*;
 
 
@@ -115,19 +116,19 @@ public class Scanner {
         int a = Integer.parseInt(mn[mn.length - 1]);
         int b = Integer.parseInt(maxHost);
 
-        StringBuilder fnlstrBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
 
         // "соединяем" хост обратно
         for (int i = 0; i < mn.length - 1; i++) {
 
-            fnlstrBuilder.append(mn[i]).append(".");
+            stringBuilder.append(mn[i]).append(".");
 
         }
 
         // Заполняем массив хостами в нужном диапазоне
         for (int i = a; i <= b; i++) {
 
-            String h = fnlstrBuilder.toString() + i;
+            String h = stringBuilder.toString() + i;
             hosts.add(h);
 
         }
@@ -174,45 +175,41 @@ public class Scanner {
         }
     }
 
-
-    public void startScan(){
-
-        // Производим перемешивание массива
-        Collections.shuffle(hosts);
-
-        try {
-            for (String g : hosts) {
-
-                // Возвращаем IP в виде объекта класса InetAddress
-                InetAddress ia = InetAddress.getByName(g);
-                System.out.println("Список открытых портов для хоста: " + g + ": " + scan(ia));
-            }
-        } catch (IOException ioe) {
-            System.out.println("Ошибка!");
-        }
-
-        serialization();
-    }
-
     /*
     // Метод, производящий сканирование
     */
 
-    List<Integer> scan(InetAddress inetAddress) {
+    public void startScan() {
 
-        // Перешиваем массив в случайном порядке
+        // Производим перемешивание массива
+        Collections.shuffle(hosts);
         Collections.shuffle(ports);
 
-        List<Integer> openPortsList = new ArrayList<>();
+        int k = 0;
+        int i = 0;
 
-        System.out.println("Хост: " + inetAddress);
-        System.out.print("Сканируемые порты: ");
+        while (k <= hosts.size() - 1) {
 
-        for (Integer port : ports) {
+            InetAddress ia = null;
+
+            try {
+                // Возвращаем IP в виде объекта класса InetAddress
+                ia = InetAddress.getByName(hosts.get(k));
+            } catch (UnknownHostException e) {
+                System.out.println("Ошибка!");
+            }
+
+            if ( i == 0) {
+                System.out.println("Сканируемый хост: " + hosts.get(k));
+                System.out.println("Сканируемые порты: ");
+            }
+
+            Integer port = ports.get(i);
             System.out.print(port);
+
             try {
 
-                InetSocketAddress isa = new InetSocketAddress(inetAddress, port);
+                InetSocketAddress isa = new InetSocketAddress(ia, port);
                 Socket socket = new Socket();
 
                 // Производится попытка соединения
@@ -220,11 +217,10 @@ public class Scanner {
                 System.out.println(" открыт");
 
                 // При успешном соединении, в массив добавляется открытый порт
-                openPortsList.add(port);
 
                 Result result = new Result();
 
-                result.setHost(inetAddress);
+                result.setHost(ia);
                 result.setOpenPort(port);
 
                 resultOfScan.add(result);
@@ -234,9 +230,16 @@ public class Scanner {
             } catch (IOException ioe) {
                 System.out.println("");
             }
+
+            if (port == ports.get(ports.size() - 1)){
+                k++;
+                i = -1;
+                Collections.shuffle(ports);
+            }
+            i++;
         }
 
-        return openPortsList;
+        serialization();
     }
 
     public void serialization(){
