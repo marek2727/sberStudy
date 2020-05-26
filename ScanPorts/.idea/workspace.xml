@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonResultOfScan.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsonResultOfScan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanPorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScanPorts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonResultOfScan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ScanPorts.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Analysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Scanner.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,18 +58,38 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForwardLists" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../palin" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Марк\Desktop\Clone\sberStudy\ScanPorts\src\main\resources" />
+      <recent name="C:\Users\Марк\Desktop\Clone\sberStudy\ScanPorts\logs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="ScanPorts" />
-      <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1-2,87.240.139.194,160.153.136.3-5 -p 80-82,443,631,888-889" />
+      <option name="PROGRAM_PARAMETERS" value="// scan -h 127.0.0.1-2,87.240.139.194-198,160.153.136.3-5 -p 80-82,888-889,631,443" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -79,6 +114,22 @@
       <updated>1585404108000</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="59" width="800" height="684" key="#Inspections" timestamp="1585406916190">

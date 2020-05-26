@@ -1,0 +1,22 @@
+{
+  "carnivore": [
+    {
+      "name": "Lion",
+      "amount" : 4
+    },
+    {
+      "name": "Bear",
+      "amount" : 2
+    }
+  ],
+  "herbivore": [
+    {
+      "name": "Zebra",
+      "amount" : 3
+    },
+    {
+      "name": "Elephant",
+      "amount" : 2
+    }
+  ]
+}
