@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf988ab1-198e-453d-b469-8ba4cb87f410" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/jsonResultOfScan29-1039.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/logs/log4j2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Analysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Threads.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/src/main/java/com/company/Threads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Analysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/target/classes/com/company/Scanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScanPorts/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/target/classes/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Carnivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Herbivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/ActionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/AnimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/ZooTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ZooLife.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Actions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Animal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/AnimalState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/AnimalState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/AnimalType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/AnimalType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/AnimalsData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/AnimalsData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Carnivore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Carnivore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Events.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Events.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Herbivore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Herbivore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Zoo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Zoo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Zoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Zoo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/ActionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/ActionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/AnimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/AnimalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/ZooTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/ZooTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="bf988ab1-198e-453d-b469-8ba4cb87f410" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +23,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../palin" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
