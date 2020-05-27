@@ -51,6 +51,11 @@ public abstract class Animal {
     public abstract void feeding();
 
     /**
+     * Определяет поведение при событии "Обновление состояния"
+     */
+    public abstract void updateState();
+
+    /**
      * Определяет поведение животного в зависимости от конкретного события
      * @param events событие, влияющее на животных
      */
@@ -72,6 +77,8 @@ public abstract class Animal {
             case FEEDING:
                 feeding();
                 break;
+            case UPDATE:
+                updateState();
         }
 
     }

@@ -6,6 +6,14 @@ package com.company;
 public class Herbivore extends Animal {
 
     /**
+     * Метод, обновляющий состояние животных
+     */
+    @Override
+    public void updateState() {
+        state = Zoo.getHerbivoreState();
+    }
+
+    /**
      * Метод, описывающий поведение травоядных животных при событии "Наступило утро"
      */
     @Override
@@ -66,11 +74,9 @@ public class Herbivore extends Animal {
 
         Zoo.setHerbivoreState(state);
 
-        for(Animal animal : Zoo.getZooAnimals()) {
-            if (animal instanceof Carnivore) {
-                animal.changeState(Events.VISITER_COME);
-            }
-        }
+        Animal animal = new Carnivore();
+
+        animal.changeState(Events.VISITER_COME);
 
     }
 

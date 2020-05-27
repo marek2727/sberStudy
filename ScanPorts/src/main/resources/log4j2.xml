@@ -18,7 +18,7 @@
 
     <Loggers>
         <!-- Root Logger -->
-        <Root level="all">
+        <Root level="info">
             <AppenderRef ref="rollingFile" />
         </Root>
     </Loggers>

@@ -19,7 +19,7 @@ public class ActionsTest {
         Zoo zoo = new Zoo();
         String filePath = ZooTest.class.getClassLoader().getResource("zooAnimalsTest.json").getPath();
         zoo.addAnimals(filePath);
-        actions = new Actions();
+        actions = new Actions(zoo);
 
     }
 

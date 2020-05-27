@@ -10,7 +10,7 @@ import lombok.Setter;
 
 
 /**
- * Класс зоопарк
+ * Класс, представляющий зоопарк
  */
 public class Zoo {
 
@@ -19,7 +19,7 @@ public class Zoo {
      */
     @Getter
     @Setter
-    private static List<Animal> zooAnimals = new ArrayList<Animal>();
+    private List<Animal> zooAnimals = new ArrayList<Animal>();
 
     /**
      * Поле, показывающее состояние всех животных определённого типа(хищников)
@@ -76,6 +76,8 @@ public class Zoo {
 
         }
 
+        updateAllStates();
+
         printState();
 
     }
@@ -107,7 +109,22 @@ public class Zoo {
                 System.out.println("No such animal type in the zoo");
         }
 
+        updateAllStates();
+
         printState();
+
+    }
+
+    /**
+     * Метод, обновляющий состояние животных
+     */
+    public void updateAllStates(){
+
+        for (Animal animal : zooAnimals){
+
+            animal.changeState(Events.UPDATE);
+
+        }
 
     }
 

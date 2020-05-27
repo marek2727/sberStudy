@@ -6,6 +6,14 @@ package com.company;
 public class Carnivore extends Animal {
 
     /**
+     * Метод, обновляющий состояние животных
+     */
+    @Override
+    public void updateState() {
+        state = Zoo.getCarnivoreState();
+    }
+
+    /**
      * Метод, описывающий поведение хищных животных при событии "Наступило утро"
      */
     @Override

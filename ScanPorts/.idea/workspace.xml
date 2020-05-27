@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanPorts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScanPorts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonResultOfScan.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonResultOfScan29-1039.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Analysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Result.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ScanPorts.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Threads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Threads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Analysis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Result.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Scanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +50,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../palin" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
->>>>>>> 463a6ae7600cfccd3614e6578f5691c31c436512
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -89,22 +77,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="ScanPorts" />
-      <option name="PROGRAM_PARAMETERS" value="// scan -h 127.0.0.1-2,87.240.139.194-198,160.153.136.3-5 -p 80-82,888-889,631,443" />
+      <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1-2,87.240.139.194-198,160.153.136.3-5 -p 80-82,888-889,631,443 -t 3" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration name="com.company in ScanPorts" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ScanPorts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <fork_mode value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.com.company in ScanPorts" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />

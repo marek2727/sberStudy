@@ -24,6 +24,10 @@ public enum Events {
     /**
      * Удар грома
      */
-    THUNDER;
+    THUNDER,
+    /**
+     * Обновление состояний
+     */
+    UPDATE;
 
 }

@@ -28,7 +28,7 @@ public class ZooTest {
     @Test
     public void testAddAnimals(){
 
-        Actions actions = new Actions();
+        Actions actions = new Actions(zoo);
 
         actions.feeding(carnivore);
         actions.feeding(herbivore);
@@ -46,7 +46,7 @@ public class ZooTest {
         testAnimals.add(lion);
         testAnimals.add(zebra);
 
-        assertEquals(testAnimals, Zoo.getZooAnimals() );
+        assertEquals(testAnimals, zoo.getZooAnimals() );
 
     }
 

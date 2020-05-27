@@ -7,10 +7,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AnimalTest {
 
+    private static Zoo zoo;
+
     @BeforeAll
     static void setup() {
 
-        Zoo zoo = new Zoo();
+        zoo = new Zoo();
         String filePath = ZooTest.class.getClassLoader().getResource("zooAnimalsTest.json").getPath();
         zoo.addAnimals(filePath);
 
@@ -19,7 +21,7 @@ public class AnimalTest {
     @Test
     public void testChangeState(){
 
-        for (Animal animal : Zoo.getZooAnimals()){
+        for (Animal animal : zoo.getZooAnimals()){
 
             animal.changeState(Events.THUNDER);
 
@@ -28,7 +30,7 @@ public class AnimalTest {
         assertEquals(AnimalState.NOISE, Zoo.getCarnivoreState());
         assertEquals(AnimalState.NOISE, Zoo.getHerbivoreState());
 
-        for (Animal animal : Zoo.getZooAnimals()){
+        for (Animal animal : zoo.getZooAnimals()){
 
             animal.changeState(Events.FEEDING);
 
@@ -40,7 +42,7 @@ public class AnimalTest {
         Zoo.setHerbivoreState(AnimalState.SLEEP);
         Zoo.setCarnivoreState(AnimalState.SLEEP);
 
-        for (Animal animal : Zoo.getZooAnimals()){
+        for (Animal animal : zoo.getZooAnimals()){
 
             animal.changeState(Events.MORNING);
 
@@ -49,7 +51,7 @@ public class AnimalTest {
         assertEquals(AnimalState.CALM, Zoo.getCarnivoreState());
         assertEquals(AnimalState.CALM, Zoo.getHerbivoreState());
 
-        for (Animal animal : Zoo.getZooAnimals()){
+        for (Animal animal : zoo.getZooAnimals()){
 
             animal.changeState(Events.VISITER_COME);
 
@@ -61,7 +63,7 @@ public class AnimalTest {
         Zoo.setHerbivoreState(AnimalState.CALM);
         Zoo.setCarnivoreState(AnimalState.CALM);
 
-        for (Animal animal : Zoo.getZooAnimals()){
+        for (Animal animal : zoo.getZooAnimals()){
 
             animal.changeState(Events.VISITER_COME);
 

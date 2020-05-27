@@ -4,20 +4,27 @@ import org.apache.commons.cli.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Класс, отвечающий за анализ входных параметров и их дальнейшее распределение
+ */
 public class Analysis {
 
     private Logger logger = LogManager.getLogger();
     private Scanner scanner = new Scanner();
 
-    public void analysisArguments(String[] args){
+    /**
+     * Метод, анализирующий входные параметры
+     * @param args входные параметры
+     * @return возвращает количество потоков
+     */
+    public int analysisArguments(String[] args){
 
-        logger.info("Программа начала своё выполнение!");
-
-        // Создание 2 опций
+        // Создание 4 опций
 
         Option optionHost = new Option("h", true,"хосты подлежащие сканированию");
         Option optionPort = new Option("p", true,"порты подлежащие сканированию");
         Option optionInfo = new Option("i","info", false,"печать этого сообщения");
+        Option optionThread = new Option("t", true, "количество потоков, которыми будут сканироваться хосты" );
 
         // Установка аргументов у опции(1)
         optionHost.setArgs(1);
@@ -27,12 +34,16 @@ public class Analysis {
         optionPort.setArgs(1);
         optionPort.setArgName("ports");
 
+        optionThread.setArgs(1);
+        optionThread.setArgName("count of threads");
+
         // Добавление опций в объект Options
 
         Options options = new Options();
         options.addOption(optionHost);
         options.addOption(optionPort);
         options.addOption(optionInfo);
+        options.addOption(optionThread);
 
         // Создание парсера строки
 
@@ -45,13 +56,14 @@ public class Analysis {
 
             HelpFormatter formatter = new HelpFormatter();
             formatter.printHelp( "info", options );
-            return;
+            return 0;
         }
 
         // Проверка на наличие опций
 
         if (commandLine.hasOption("i") || commandLine.hasOption("info")){
-            System.out.println("-h <hosts>   use value for given property \n" + "-p <ports>   use value for given property");
+            System.out.println("-h <hosts>   use value for given property \n" + "-p <ports>   use value for given property\n"
+                    + "-t <threads>     count of threads");
             logger.info("На экран выведена справка по использованию утилиты.");
             logger.info("Программа закончила свою работу.");
 
@@ -88,12 +100,35 @@ public class Analysis {
             System.exit(0);
         }
 
-        logger.info("Распознавание входных данных прошло успешно.");
-        logger.info("Начался процесс сканирования.");
+        if (commandLine.hasOption("t")){
+            String[] arguments = commandLine.getOptionValues("t");
+
+            logger.info("Распознавание входных данных прошло успешно.");
+
+            return Integer.parseInt(arguments[0]);
+
+        } else{
+
+            logger.error("Неправильно введены входные данные.");
+
+            HelpFormatter formatter = new HelpFormatter();
+            formatter.printHelp( "info", options );
+
+            logger.info("На экран выведена справка по использованию утилиты.");
+            logger.info("Программа закончила свою работу.");
+
+            System.exit(0);
+        }
+
+        return 0;
 
     }
 
 
+    /**
+     * Метод, анализирующий в каком виде указаны порты
+     * @param args порты, подлежащие сканированию
+     */
     public void analysisPort(String args){
 
         /*
@@ -138,6 +173,10 @@ public class Analysis {
 
     }
 
+    /**
+     * Метод, анализирующий в каком виде указаны хосты
+     * @param args хосты, подлежащие сканированию
+     */
     public void analysisHost(String args) {
 
         logger.info("Сканируемые хосты: " + args);
