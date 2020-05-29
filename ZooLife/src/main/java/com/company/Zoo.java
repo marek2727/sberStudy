@@ -10,33 +10,33 @@ import lombok.Setter;
 
 
 /**
- * Класс, представляющий зоопарк
+ * Class describing the zoo
  */
 public class Zoo {
 
     /**
-     * Список всех животных в зоопарке
+     * List of all animals in the zoo
      */
     @Getter
     @Setter
     private List<Animal> zooAnimals = new ArrayList<Animal>();
 
     /**
-     * Поле, показывающее состояние всех животных определённого типа(хищников)
+     * Field of state of carnivore animals
      */
     @Getter
     @Setter
     private static AnimalState carnivoreState;
 
     /**
-     * Поле, показывающее состояние всех животных определённого типа(травоядных)
+     * Field of state of herbivore animals
      */
     @Setter
     @Getter
     private static AnimalState herbivoreState;
 
     /**
-     * Установление значений по-умолчанию
+     * Setting default values
      */
     public Zoo(){
 
@@ -46,8 +46,8 @@ public class Zoo {
     }
 
     /**
-     * Метод, добавляющий животных в зоопарк из JSON файла.
-     * @param filePath путь к JSON файлу с информацией о животных
+     * Method that adds animals to the zoo from a JSON file
+     * @param filePath path to JSON file with information about an animals
      */
     public void addAnimals(String filePath){
 
@@ -65,8 +65,8 @@ public class Zoo {
     }
 
     /**
-     * Метод, реагирующий на произошедшее событие для всех животных
-     * @param events само событие
+     * Method that responds to an event for all animals
+     * @param events event
      */
     public void startActions(Events events){
 
@@ -84,9 +84,9 @@ public class Zoo {
 
 
     /**
-     * Метод, реагирующий на произошедшее событие для определённого вида животных
-     * @param events само событие
-     * @param animalType тип животного, для которого произошло событие
+     * Method that responds to an event for a specific animal species
+     * @param events event
+     * @param animalType type of animal
      */
     public void startActions(Events events, AnimalType animalType){
 
@@ -116,7 +116,7 @@ public class Zoo {
     }
 
     /**
-     * Метод, обновляющий состояние животных
+     * Method for update of states
      */
     public void updateAllStates(){
 
@@ -130,7 +130,7 @@ public class Zoo {
 
 
     /**
-     * Метод для распечатывания состояний всех животных
+     * Method for printing all states of animals
      */
     public void printState(){
 

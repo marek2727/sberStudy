@@ -5,7 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * Класс, отвечающий за анализ входных параметров и их дальнейшее распределение
+ * Class, that analysis of the input parameters and their further distribution
  */
 public class Analysis {
 
@@ -13,9 +13,9 @@ public class Analysis {
     private Scanner scanner = new Scanner();
 
     /**
-     * Метод, анализирующий входные параметры
-     * @param args входные параметры
-     * @return возвращает количество потоков
+     * Method, that analyzes of the input parameters
+     * @param args input parameters
+     * @return count of threads
      */
     public int analysisArguments(String[] args){
 
@@ -28,7 +28,8 @@ public class Analysis {
 
         // Установка аргументов у опции(1)
         optionHost.setArgs(1);
-        // Имя аргумента
+
+        // Name of argument
         optionHost.setArgName("hosts");
 
         optionPort.setArgs(1);
@@ -126,8 +127,8 @@ public class Analysis {
 
 
     /**
-     * Метод, анализирующий в каком виде указаны порты
-     * @param args порты, подлежащие сканированию
+     * Method, that analyzes what type of ports are specified
+     * @param args ports for scan
      */
     public void analysisPort(String args){
 
@@ -174,8 +175,8 @@ public class Analysis {
     }
 
     /**
-     * Метод, анализирующий в каком виде указаны хосты
-     * @param args хосты, подлежащие сканированию
+     * Method, that analyzes what type of hosts are specified
+     * @param args hosts for scan
      */
     public void analysisHost(String args) {
 

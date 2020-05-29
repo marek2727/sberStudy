@@ -1,20 +1,20 @@
 package com.company;
 
 /**
- * Возможные состояние животных
+ * Possible condition of animals
  */
 public enum AnimalState {
 
     /**
-     * Состояние, говорящее о том, что животное спит
+     * State, when animal is sleeping
      */
     SLEEP,
     /**
-     * Состояние, говорящее о том, что животное в состоянии спокойствия
+     * State, when animal is calming
      */
     CALM,
     /**
-     * Состояние, говорящее о том, что животное шумит
+     * State, when animal is noising
      */
     NOISE
 

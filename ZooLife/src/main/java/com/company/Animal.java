@@ -4,60 +4,60 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Класс, описывающий животное
+ * Class, describing an animal
  */
 @Getter
 @Setter
 public abstract class Animal {
 
     /**
-     * Имя животного
+     * Name of animal
      */
     protected String name;
 
     /**
-     * Численность определённого животного
+     * Amount of animals
      */
     protected int amount;
 
     /**
-     * Состояние животных определённого типа
+     * State of animal a certain type
      */
     protected AnimalState state = AnimalState.CALM;
 
     /**
-     * Определяет поведение при событии "Наступление утра"
+     * Defines behavior for event "Morning onset"
      */
     public abstract void morning();
 
     /**
-     * Определяет поведение при событии "Наступление ночи"
+     * Defines behavior for event "Nightfall"
      */
     public abstract void night();
 
     /**
-     * Определяет поведение при событии "Удар грома"
+     * Defines behavior for event "Thunderbolt"
      */
     public abstract void thunder();
 
     /**
-     * Определяет поведение при событии "Приход смотрителя"
+     * Defines behavior for event "Visitor come"
      */
-    public abstract void visiterCome();
+    public abstract void visitorCome();
 
     /**
-     * Определяет поведение при событии "Кормление животных"
+     * Defines behavior for event "Feed animals"
      */
     public abstract void feeding();
 
     /**
-     * Определяет поведение при событии "Обновление состояния"
+     * Defines behavior for event "Update state"
      */
     public abstract void updateState();
 
     /**
-     * Определяет поведение животного в зависимости от конкретного события
-     * @param events событие, влияющее на животных
+     * Defines behavior of animal depending on the specific event
+     * @param events event, influence the animal
      */
     public void changeState(Events events){
 
@@ -72,7 +72,7 @@ public abstract class Animal {
                 thunder();
                 break;
             case VISITER_COME:
-                visiterCome();
+                visitorCome();
                 break;
             case FEEDING:
                 feeding();

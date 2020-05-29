@@ -1,17 +1,17 @@
 package com.company;
 
 /**
- * Класс, содержащий возможные события и дальнейшие последствия
+ * Class contains possible events and their further consequences
  */
 public class Actions {
 
     /**
-     * Ссылка на зоопарк
+     * Link to the zoo
      */
     private Zoo zoo;
 
     /**
-     * @param zoo ссылка на конкретный зоопарк
+     * @param zoo link to the zoo
      */
     public Actions (Zoo zoo){
 
@@ -20,7 +20,7 @@ public class Actions {
     }
 
     /**
-     * Метод, соответствующий событию "Наступление утра"
+     * Method, related to the event "Morning onset"
      */
     public void morning(){
 
@@ -31,8 +31,8 @@ public class Actions {
     }
 
     /**
-     * Метод, соответствующий событию "Приход смотрителя" к определённому виду животных
-     * @param animalType тип животного
+     * Method, related to the event "Visitor come" to a certain type of animal
+     * @param animalType type of animal
      */
     public void feederVisit(AnimalType animalType){
 
@@ -43,7 +43,7 @@ public class Actions {
     }
 
     /**
-     * Метод, соответствующий событию "Наступление ночи"
+     * Method, related to the event "Nightfall"
      */
     public void night(){
 
@@ -54,7 +54,7 @@ public class Actions {
     }
 
     /**
-     * Метод, соответствующий событию "Удар грома"
+     * Method, related to the event "Thunderbolt"
      */
     public void thunder(){
 
@@ -65,8 +65,8 @@ public class Actions {
     }
 
     /**
-     * Метод, соответствующий событию "Животных покормили" для определённого типа животных
-     * @param animalType тип животного
+     * Method, related to the event "Feed animals" to a certain type of animal
+     * @param animalType type of animal
      */
     public void feeding(AnimalType animalType){
 

@@ -1,4 +1,5 @@
-/**
+package com.company;
+/*
  * Задача:
  * Разработать программу моделирующую поведение животных в зоопарке.
  * В зоопарке присутствутют как травоядные, так и плотоядные животные.
@@ -17,21 +18,18 @@
  *     Когда гремит гром - все животные просыпаются и начинают шуметь
  */
 
-package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
 
         String filePath = args[0];
 
-        // Создание зоопарка
+        // Create a zoo
         Zoo zoo = new Zoo();
 
-        // Добавление животных в зоопарк
+        // Add animals in the zoo
         zoo.addAnimals(filePath);
 
-        // События, которые могут произойти в зоопарке
         Actions actions = new Actions(zoo);
 
         actions.morning();

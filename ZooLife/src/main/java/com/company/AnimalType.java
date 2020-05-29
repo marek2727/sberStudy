@@ -1,16 +1,16 @@
 package com.company;
 
 /**
- * Возможные виды животных
+ * Possible types of animals
  */
 public enum AnimalType {
 
     /**
-     * Травоядные животные
+     * Carnivore animal
      */
     CARNIVORE,
     /**
-     * Хищные животные
+     * Herbivore animal
      */
     HERBIVORE
 

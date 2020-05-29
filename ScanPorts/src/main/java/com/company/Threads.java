@@ -1,15 +1,15 @@
 package com.company;
 
 /**
- * Класс, определяющий поведение потоков
+ * Class, that describes behavior of threads
  */
 public class Threads extends Thread {
 
     private int numberHost;
 
     /**
-     * Конструктор, принимающий номер хоста по счёту
-     * @param numberHost
+     * Constructor
+     * @param numberHost number of host
      */
     Threads(int numberHost){
 

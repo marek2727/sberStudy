@@ -1,107 +1,116 @@
-2020-05-27 14:58:38,441 INFO c.c.Main [main] Программа начала своё выполнение!
-2020-05-27 14:58:41,926 INFO c.c.Analysis [main] Сканируемые хосты: 127.0.0.1-2,87.240.139.194-198,160.153.136.3-5
-2020-05-27 14:58:41,927 INFO c.c.Analysis [main] Сканируемые порты: 80-82,888-889,631,443
-2020-05-27 14:58:41,927 INFO c.c.Analysis [main] Распознавание входных данных прошло успешно.
-2020-05-27 14:58:45,034 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
-2020-05-27 14:58:45,037 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /87.240.139.194
-2020-05-27 14:58:45,038 INFO c.c.Scanner [pool-2-thread-2] Начался процесс сканирования.
-2020-05-27 14:58:45,035 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
-2020-05-27 14:58:45,493 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:45,599 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /87.240.139.196
-2020-05-27 14:58:45,599 INFO c.c.Scanner [pool-2-thread-2] Начато сканирование хоста: /160.153.136.3
-2020-05-27 14:58:45,616 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 443
-2020-05-27 14:58:45,644 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 82
-2020-05-27 14:58:45,700 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:45,800 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 443
-2020-05-27 14:58:45,900 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 443
-2020-05-27 14:58:45,902 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:45,953 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:46,003 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:46,003 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:46,055 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:46,105 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:46,105 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:46,156 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:46,174 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 80
-2020-05-27 14:58:46,206 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 80
-2020-05-27 14:58:46,207 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:46,257 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 80
-2020-05-27 14:58:46,276 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:46,276 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
-2020-05-27 14:58:46,277 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
-2020-05-27 14:58:46,277 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /87.240.139.197
-2020-05-27 14:58:46,308 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:46,309 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
-2020-05-27 14:58:46,309 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
-2020-05-27 14:58:46,309 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /87.240.139.195
-2020-05-27 14:58:46,359 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:46,359 INFO c.c.Scanner [pool-2-thread-2] Сканирование завершено.
-2020-05-27 14:58:46,360 INFO c.c.Scanner [pool-2-thread-2] Начался процесс сканирования.
-2020-05-27 14:58:46,360 INFO c.c.Scanner [pool-2-thread-2] Начато сканирование хоста: /127.0.0.1
-2020-05-27 14:58:46,378 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:46,411 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:46,461 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:46,480 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 443
-2020-05-27 14:58:46,513 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 443
-2020-05-27 14:58:46,562 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 443
-2020-05-27 14:58:46,582 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:46,614 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:46,662 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:46,684 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:46,714 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:46,762 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:46,786 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:46,814 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:46,864 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:46,888 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 80
-2020-05-27 14:58:46,915 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 80
-2020-05-27 14:58:46,965 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 80
-2020-05-27 14:58:46,990 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:46,991 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
-2020-05-27 14:58:46,991 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
-2020-05-27 14:58:46,992 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /127.0.0.2
-2020-05-27 14:58:47,017 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:47,018 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
-2020-05-27 14:58:47,018 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
-2020-05-27 14:58:47,018 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /160.153.136.5
-2020-05-27 14:58:47,066 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:47,066 INFO c.c.Scanner [pool-2-thread-2] Сканирование завершено.
-2020-05-27 14:58:47,068 INFO c.c.Scanner [pool-2-thread-2] Начался процесс сканирования.
-2020-05-27 14:58:47,068 INFO c.c.Scanner [pool-2-thread-2] Начато сканирование хоста: /160.153.136.4
-2020-05-27 14:58:47,100 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:47,121 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:47,169 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:47,170 INFO c.c.Scanner [pool-2-thread-3] Подключение к порту прошло успешно: 443
-2020-05-27 14:58:47,205 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 443
-2020-05-27 14:58:47,217 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 443
-2020-05-27 14:58:47,274 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:47,308 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:47,318 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:47,379 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:47,412 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:47,420 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:47,481 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:47,514 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:47,522 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:47,536 INFO c.c.Scanner [pool-2-thread-3] Подключение к порту прошло успешно: 80
-2020-05-27 14:58:47,574 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 80
-2020-05-27 14:58:47,615 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 80
-2020-05-27 14:58:47,636 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:47,637 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
-2020-05-27 14:58:47,637 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
-2020-05-27 14:58:47,637 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /87.240.139.198
-2020-05-27 14:58:47,678 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:47,678 INFO c.c.Scanner [pool-2-thread-2] Сканирование завершено.
-2020-05-27 14:58:47,716 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:47,716 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
-2020-05-27 14:58:47,739 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
-2020-05-27 14:58:47,841 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 443
-2020-05-27 14:58:47,943 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
-2020-05-27 14:58:48,047 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
-2020-05-27 14:58:48,151 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
-2020-05-27 14:58:48,253 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 80
-2020-05-27 14:58:48,353 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
-2020-05-27 14:58:48,353 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
-2020-05-27 14:58:48,355 INFO c.c.Scanner [main] Начат процесс сериализации.
-2020-05-27 14:58:49,485 INFO c.c.Scanner [main] Запись в файл прошла успешно.
-2020-05-27 14:58:49,486 INFO c.c.Main [main] Программа закончила свою работу.
+2020-05-29 16:23:24,590 INFO c.c.Main [main] Программа начала своё выполнение!
+2020-05-29 16:23:25,363 INFO c.c.Analysis [main] Сканируемые хосты: 127.0.0.1-2,87.240.139.194-198,160.153.136.3-5
+2020-05-29 16:23:25,364 INFO c.c.Analysis [main] Сканируемые порты: 80-82,888-889,631,443
+2020-05-29 16:23:25,364 INFO c.c.Analysis [main] Распознавание входных данных прошло успешно.
+2020-05-29 16:23:25,368 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
+2020-05-29 16:23:25,367 INFO c.c.Scanner [pool-2-thread-2] Начался процесс сканирования.
+2020-05-29 16:23:25,367 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
+2020-05-29 16:23:25,369 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /87.240.139.195
+2020-05-29 16:23:25,369 INFO c.c.Scanner [pool-2-thread-2] Начато сканирование хоста: /160.153.136.4
+2020-05-29 16:23:25,369 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /87.240.139.194
+2020-05-29 16:23:25,383 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 80
+2020-05-29 16:23:25,413 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 80
+2020-05-29 16:23:25,509 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 80
+2020-05-29 16:23:25,610 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:25,638 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:25,638 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:25,711 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:25,739 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:25,740 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:25,813 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:25,840 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:25,840 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:25,914 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:25,940 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:25,940 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:25,955 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 443
+2020-05-29 16:23:25,986 INFO c.c.Scanner [pool-2-thread-2] Подключение к порту прошло успешно: 443
+2020-05-29 16:23:26,016 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 443
+2020-05-29 16:23:26,057 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:26,057 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
+2020-05-29 16:23:26,058 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
+2020-05-29 16:23:26,058 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /160.153.136.5
+2020-05-29 16:23:26,089 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:26,089 INFO c.c.Scanner [pool-2-thread-2] Сканирование завершено.
+2020-05-29 16:23:26,090 INFO c.c.Scanner [pool-2-thread-2] Начался процесс сканирования.
+2020-05-29 16:23:26,090 INFO c.c.Scanner [pool-2-thread-2] Начато сканирование хоста: /127.0.0.2
+2020-05-29 16:23:26,104 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 80
+2020-05-29 16:23:26,116 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:26,117 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
+2020-05-29 16:23:26,117 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
+2020-05-29 16:23:26,117 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /87.240.139.197
+2020-05-29 16:23:26,191 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 80
+2020-05-29 16:23:26,205 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:26,218 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 80
+2020-05-29 16:23:26,292 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:26,305 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:26,319 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:26,393 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:26,406 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:26,422 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:26,493 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:26,508 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:26,523 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:26,570 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 443
+2020-05-29 16:23:26,595 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:26,623 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:26,672 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:26,672 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
+2020-05-29 16:23:26,673 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
+2020-05-29 16:23:26,673 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /160.153.136.3
+2020-05-29 16:23:26,696 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 443
+2020-05-29 16:23:26,719 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 80
+2020-05-29 16:23:26,724 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 443
+2020-05-29 16:23:26,798 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:26,798 INFO c.c.Scanner [pool-2-thread-2] Сканирование завершено.
+2020-05-29 16:23:26,798 INFO c.c.Scanner [pool-2-thread-2] Начался процесс сканирования.
+2020-05-29 16:23:26,799 INFO c.c.Scanner [pool-2-thread-2] Начато сканирование хоста: /127.0.0.1
+2020-05-29 16:23:26,819 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:26,826 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:26,827 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
+2020-05-29 16:23:26,829 INFO c.c.Scanner [pool-2-thread-3] Начался процесс сканирования.
+2020-05-29 16:23:26,829 INFO c.c.Scanner [pool-2-thread-3] Начато сканирование хоста: /87.240.139.198
+2020-05-29 16:23:26,901 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 80
+2020-05-29 16:23:26,921 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:26,931 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 80
+2020-05-29 16:23:27,002 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:27,022 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:27,032 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:27,103 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:27,124 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:27,133 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:27,169 INFO c.c.Scanner [pool-2-thread-1] Подключение к порту прошло успешно: 443
+2020-05-29 16:23:27,204 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:27,235 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:27,270 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:27,270 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
+2020-05-29 16:23:27,271 INFO c.c.Scanner [pool-2-thread-1] Начался процесс сканирования.
+2020-05-29 16:23:27,271 INFO c.c.Scanner [pool-2-thread-1] Начато сканирование хоста: /87.240.139.196
+2020-05-29 16:23:27,305 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:27,336 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:27,372 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 80
+2020-05-29 16:23:27,405 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 443
+2020-05-29 16:23:27,437 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 443
+2020-05-29 16:23:27,473 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 81
+2020-05-29 16:23:27,505 ERROR c.c.Scanner [pool-2-thread-2] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:27,505 INFO c.c.Scanner [pool-2-thread-2] Сканирование завершено.
+2020-05-29 16:23:27,538 ERROR c.c.Scanner [pool-2-thread-3] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:27,538 INFO c.c.Scanner [pool-2-thread-3] Сканирование завершено.
+2020-05-29 16:23:27,573 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 889
+2020-05-29 16:23:27,674 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 888
+2020-05-29 16:23:27,775 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 82
+2020-05-29 16:23:27,876 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 443
+2020-05-29 16:23:27,976 ERROR c.c.Scanner [pool-2-thread-1] Ошибка connect timed out возникла на порту 631
+2020-05-29 16:23:27,976 INFO c.c.Scanner [pool-2-thread-1] Сканирование завершено.
+2020-05-29 16:23:27,978 INFO c.c.Scanner [main] Начат процесс сериализации.
+2020-05-29 16:23:28,370 INFO c.c.Scanner [main] Запись в файл прошла успешно.
+2020-05-29 16:23:28,370 INFO c.c.Main [main] Программа закончила свою работу.
+2020-05-29 16:29:54,119 INFO c.c.Analysis [main] Сканируемые хосты: 127.0.0.1-2,87.240.139.194-198,160.153.136.3
+2020-05-29 16:30:01,154 INFO c.c.Analysis [main] Сканируемые порты: 80-82,631,443
+2020-05-29 16:30:06,154 INFO c.c.Analysis [main] Сканируемые хосты: 127.0.0.1-2,87.240.139.194
+2020-05-29 16:30:06,222 INFO c.c.Analysis [main] Сканируемые порты: 80-82,631,443
+2020-05-29 16:30:06,223 INFO c.c.Analysis [main] Распознавание входных данных прошло успешно.
+2020-05-29 16:30:10,080 INFO c.c.Scanner [main] Начался процесс сканирования.
+2020-05-29 16:30:10,093 INFO c.c.Scanner [main] Начато сканирование хоста: /160.153.136.3
+2020-05-29 16:30:10,142 INFO c.c.Scanner [main] Подключение к порту прошло успешно: 80
+2020-05-29 16:30:10,241 INFO c.c.Scanner [main] Сканирование завершено.

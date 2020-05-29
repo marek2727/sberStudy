@@ -37,9 +37,9 @@ public class CarnivoreTest {
     }
 
     @Test
-    public void testVisiterCome(){
+    public void testVisitorCome(){
 
-        carnivore.visiterCome();
+        carnivore.visitorCome();
 
         assertEquals(AnimalState.NOISE, Zoo.getCarnivoreState());
 

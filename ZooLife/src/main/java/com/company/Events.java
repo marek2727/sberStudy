@@ -1,32 +1,32 @@
 package com.company;
 
 /**
- * Возможные события, которые могут произойти в зоопарке
+ * Possible events in the zoo
  */
 public enum Events {
 
     /**
-     * Наступление утра
+     * Morning onset
      */
     MORNING,
     /**
-     * Наступление ночи
+     * Nightfall
      */
     NIGHT,
     /**
-     * Приход смотрителя
+     * Visitor come
      */
     VISITER_COME,
     /**
-     * Кормление животного
+     * Feed animal
      */
     FEEDING,
     /**
-     * Удар грома
+     * ThunderBolt
      */
     THUNDER,
     /**
-     * Обновление состояний
+     * Update state
      */
     UPDATE;
 

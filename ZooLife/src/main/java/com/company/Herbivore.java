@@ -1,12 +1,12 @@
 package com.company;
 
 /**
- * Класс, описывающий поведение травоядных животных
+ * Class describes behavior of herbivore animals
  */
 public class Herbivore extends Animal {
 
     /**
-     * Метод, обновляющий состояние животных
+     * Method that update state of animals
      */
     @Override
     public void updateState() {
@@ -14,7 +14,7 @@ public class Herbivore extends Animal {
     }
 
     /**
-     * Метод, описывающий поведение травоядных животных при событии "Наступило утро"
+     * Method describes behavior herbivore animals an event "Morning onset"
      */
     @Override
     public void morning(){
@@ -32,7 +32,7 @@ public class Herbivore extends Animal {
     }
 
     /**
-     * Метод, описывающий поведение травоядных животных при событии "Наступила ночь"
+     * Method describes behavior herbivore animals an event "Nightfall"
      */
     @Override
     public void night() {
@@ -53,7 +53,7 @@ public class Herbivore extends Animal {
     }
 
     /**
-     * Метод, описывающий поведение травоядных животных при событии "Удар грома"
+     * Method describes behavior herbivore animals an event "Thunderbolt"
      */
     @Override
     public void thunder() {
@@ -65,10 +65,10 @@ public class Herbivore extends Animal {
     }
 
     /**
-     * Метод, описывающий поведение хищных животных при событии "Приход смотрителя"
+     * Method describes behavior herbivore animals an event "Visitor come"
      */
     @Override
-    public void visiterCome() {
+    public void visitorCome() {
 
         state = AnimalState.NOISE;
 
@@ -81,7 +81,7 @@ public class Herbivore extends Animal {
     }
 
     /**
-     * Метод, описывающий поведение хищных животных при событии "Кормление животных"
+     * Method describes behavior herbivore animals an event "Feed animals"
      */
     @Override
     public void feeding(){

@@ -5,18 +5,18 @@ import lombok.Getter;
 import java.util.List;
 
 /**
- * Класс, для сериализации JSON файла
+ * Class for serialization JSON file
  */
 @Getter
 public class AnimalsData {
 
     /**
-     * Список, содержащий в себе информацию о хищных животных
+     * List contains information about carnivore animals
      */
     private List<Carnivore> carnivore;
 
     /**
-     * Список, содержащий в себе информацию о травоядных животных
+     * List contains information about herbivore animals
      */
     private List<Herbivore> herbivore;
 

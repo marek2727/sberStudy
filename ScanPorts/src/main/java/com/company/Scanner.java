@@ -16,7 +16,7 @@ import java.net.UnknownHostException;
 import java.util.*;
 
 /**
- * Метод, добавляющий в списки хосты и порты, подлежащие сканированию, а так же начинающий сканирование.
+ * Class, that add in the lists hosts and ports for scan and begin scan
  */
 @Setter
 @Getter
@@ -25,37 +25,37 @@ public class Scanner {
     private Logger logger = LogManager.getLogger();
 
     /**
-     * Список портов
+     * List of ports
      */
     @Setter
     @Getter
     private static List<Integer> ports = new ArrayList<>();
 
     /**
-     * Список хостов
+     * Lists of hosts
      */
     @Setter
     @Getter
     private static List<String> hosts = new ArrayList<>();
 
     /**
-     * Результат сканирования, хранящийся в виде хост-порт
+     * Result of scan
      */
     @Setter
     @Getter
     private static List<Pair<InetAddress, Integer>> resultOfScan = new ArrayList<>();
 
     /**
-     * Метод, определяющий размер списка хостов
-     * @return длину списка
+     * Method, that defines size of list of hosts
+     * @return size of list
      */
     public static int getSizeHosts(){
         return hosts.size();
     }
 
     /**
-     * Метод, добавляющий в список порты, пришедшие в смешанном виде.
-     * @param enumPorts порты в смешанном виде
+     * Method, that used when ports specified in mixed form
+     * @param enumPorts ports in mixed form
      */
     public void mainPorts(String[] enumPorts){
 
@@ -101,9 +101,9 @@ public class Scanner {
     }
 
     /**
-     * Метод, принимающий диапазон портов, и заполняющий список портов, подлежащих сканированию
-     * @param minPort начало диапазона
-     * @param maxPort конец диапазона
+     * Method, that received range of ports and add this ports in the list
+     * @param minPort start of range
+     * @param maxPort end of range
      */
     public void scanPorts(Integer minPort, Integer maxPort) {
         for (int i = minPort; i <= maxPort; i++)
@@ -112,8 +112,8 @@ public class Scanner {
     }
 
     /**
-     * Перегруженный метод, принимающий перечень портов, и заполняющий массив портов
-     * @param enumPorts перечень портов
+     * Method, that received enum of ports and add this ports in the list
+     * @param enumPorts enum ports
      */
     public void scanPorts(String[] enumPorts) {
         for (String enumPort : enumPorts)
@@ -122,7 +122,7 @@ public class Scanner {
     }
 
     /**
-     * Метод, сортирующий списки в случайном порядке
+     * Method for random sort the lists
      */
     public void random(){
 
@@ -132,16 +132,16 @@ public class Scanner {
     }
 
     /**
-     * Метод, принимающий один порт, и добавляющий его в список
-     * @param port порт
+     * Method, that received port and add this port in the list
+     * @param port port
      */
     public void scanPorts(int port) {
         ports.add(port);
     }
 
     /**
-     * Метод, принимающий один хост, и добавляющий его список хостов
-     * @param host хост
+     * Method, that received host and add this host in the list
+     * @param host host
      */
     public void scanHosts(String host) {
 
@@ -149,8 +149,8 @@ public class Scanner {
     }
 
     /**
-     * Перегруженный метод, принимающий перечень хостов, и заполняющий список хостов
-     * @param getHosts перечень хостов
+     * Method that received enum of hosts and add this hosts in the list
+     * @param getHosts enum of hosts
      */
     public void scanHosts(String[] getHosts) {
 
@@ -159,9 +159,9 @@ public class Scanner {
     }
 
     /**
-     * Перегруженный метод, принимающий диапазон хостов, и заполняющий массив хостов
-     * @param minHost начало диапазона
-     * @param maxHost конец диапазона
+     * Method, that received range of hosts and add this hosts in the list
+     * @param minHost start of range
+     * @param maxHost end of range
      */
     public void scanHosts(String minHost, String maxHost) {
 
@@ -192,8 +192,8 @@ public class Scanner {
     }
 
     /**
-     * Метод, применяющийся при указании и перечня, и диапазона хостов
-     * @param enumHosts хосты в смешанном виде
+     * Method, that used when hosts specified in mixed form
+     * @param enumHosts hosts in mixed form
      */
     public void  mainHosts(String[] enumHosts){
 
@@ -233,8 +233,8 @@ public class Scanner {
     }
 
     /**
-     * Метод, производящий сканирование
-     * @param numberHost номер хоста по счёту
+     * Method, that begin of scan
+     * @param numberHost number of host
      */
     public void startScan(int numberHost) {
 
@@ -282,7 +282,7 @@ public class Scanner {
     }
 
     /**
-     * Метод, производящий сериализацию
+     * Method for serialization
      */
     public void serialization(){
 
