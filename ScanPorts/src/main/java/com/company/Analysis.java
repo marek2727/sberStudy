@@ -94,6 +94,8 @@ public class Analysis {
                 scanner.scanHosts(aloneHost);
             }
 
+            Threads t = new Threads();
+
             scanner.startScan();
 
         } else{

@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("Исходная строка: " + s);
 	    ReverseWords rev = new ReverseWords();
-        rev.reverse(s);
+        System.out.println(rev.reverse(s));
     }
 }
 

@@ -11,12 +11,13 @@ import java.net.UnknownHostException;
 import java.util.*;
 
 
-public class Scanner {
+    public class Scanner {
 
     private int timeout = 100;
     private List<Integer> ports = new ArrayList<>();
     private List<String> hosts = new ArrayList<>();
     private List<Result> resultOfScan = new ArrayList<>();
+    Thread t = new Thread();
 
     /*
     // Метод, применяющийся при указании и перечня, и диапазона портов
@@ -181,6 +182,9 @@ public class Scanner {
 
     public void startScan() {
 
+        Thread t = Thread.currentThread();
+
+        System.out.println(t);
         // Производим перемешивание массива
         Collections.shuffle(hosts);
         Collections.shuffle(ports);
@@ -270,5 +274,4 @@ public class Scanner {
             System.out.println("Ошибка! Невозможно записать данные в файл!");
         }
     }
-
 }
