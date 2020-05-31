@@ -211,21 +211,7 @@ public class Analysis {
 
             // Случай, если сканировать необходимо один хост
 
-<<<<<<< HEAD
-                String aloneHost = args[2];
-                scanner.scanHosts(aloneHost);
-            }
-
-            Threads t = new Threads();
-
-            scanner.startScan();
-
-        } else{
-            System.out.println("\tНекорректно введены входные данные! Попробуйте ещё раз!\n\t" +
-                                "Корректный формат ввода данных: " + "scan -h 127.0.0.1 -p 631");
-=======
             scanner.scanHosts(args);
->>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
         }
     }
 }

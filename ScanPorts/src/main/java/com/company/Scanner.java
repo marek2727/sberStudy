@@ -15,20 +15,6 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.*;
 
-<<<<<<< HEAD
-
-    public class Scanner {
-
-    private int timeout = 100;
-    private List<Integer> ports = new ArrayList<>();
-    private List<String> hosts = new ArrayList<>();
-    private List<Result> resultOfScan = new ArrayList<>();
-    Thread t = new Thread();
-
-    /*
-    // Метод, применяющийся при указании и перечня, и диапазона портов
-    */
-=======
 /**
  * Class, that add in the lists hosts and ports for scan and begin scan
  */
@@ -66,7 +52,6 @@ public class Scanner {
     public static int getSizeHosts(){
         return hosts.size();
     }
->>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
 
     /**
      * Method, that used when ports specified in mixed form
@@ -255,21 +240,6 @@ public class Scanner {
 
         logger.info("Начался процесс сканирования.");
 
-<<<<<<< HEAD
-        Thread t = Thread.currentThread();
-
-        System.out.println(t);
-        // Производим перемешивание массива
-        Collections.shuffle(hosts);
-        Collections.shuffle(ports);
-
-        int k = 0;
-        int i = 0;
-
-        while (k <= hosts.size() - 1) {
-
-            InetAddress ia = null;
-=======
         InetAddress ia = null;
         try {
             // Возвращаем IP в виде объекта класса InetAddress
@@ -277,7 +247,6 @@ public class Scanner {
         } catch (UnknownHostException e) {
             logger.error("Не удалось распознать хост.");
         }
->>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
 
         logger.info("Начато сканирование хоста: " + ia);
 
