@@ -1,7 +1,12 @@
 package com.company;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import javafx.util.Pair;
+import lombok.Getter;
+import lombok.Setter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.InetAddress;
@@ -10,6 +15,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.*;
 
+<<<<<<< HEAD
 
     public class Scanner {
 
@@ -22,8 +28,53 @@ import java.util.*;
     /*
     // Метод, применяющийся при указании и перечня, и диапазона портов
     */
+=======
+/**
+ * Class, that add in the lists hosts and ports for scan and begin scan
+ */
+@Setter
+@Getter
+public class Scanner {
 
+    private Logger logger = LogManager.getLogger();
+
+    /**
+     * List of ports
+     */
+    @Setter
+    @Getter
+    private static List<Integer> ports = new ArrayList<>();
+
+    /**
+     * Lists of hosts
+     */
+    @Setter
+    @Getter
+    private static List<String> hosts = new ArrayList<>();
+
+    /**
+     * Result of scan
+     */
+    @Setter
+    @Getter
+    private static List<Pair<InetAddress, Integer>> resultOfScan = new ArrayList<>();
+
+    /**
+     * Method, that defines size of list of hosts
+     * @return size of list
+     */
+    public static int getSizeHosts(){
+        return hosts.size();
+    }
+>>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
+
+    /**
+     * Method, that used when ports specified in mixed form
+     * @param enumPorts ports in mixed form
+     */
     public void mainPorts(String[] enumPorts){
+
+        // 80-82, 631, 888-889, 5667
 
         String[] rangePorts;
         ArrayList<String> rangePort = new ArrayList<>();
@@ -36,20 +87,24 @@ import java.util.*;
         */
 
         for (int i = 0; i < enumPorts.length; i++) {
+
             if (enumPorts[i].contains("-")){
                 rangePorts = (enumPorts[i].split("-"));
+
                 rangePort.add(rangePorts[0]);
                 rangePort.add(rangePorts[1]);
+
                 String a = enumPorts[k];
                 enumPorts[k] = enumPorts[i];
                 enumPorts[i] = a;
                 k++;
             }
+
         }
 
         // Цикл, заполняющий массив сканируемых портов из массива введённого перечня портов(исключая найденные диапазоны)
 
-        for (int i = k ; i < enumPorts.length; i++)
+        for (int i = k; i < enumPorts.length; i++)
             ports.add(Integer.parseInt(enumPorts[i]));
 
         // Цикл, заполняющий массив сканируемых портов из массива введённого диапазона портов
@@ -60,86 +115,101 @@ import java.util.*;
 
     }
 
-    /*
-    // Метод, принимающий диапазон портов, и заполняющий массив портов, подлежащиъ сканированию
-    */
-
+    /**
+     * Method, that received range of ports and add this ports in the list
+     * @param minPort start of range
+     * @param maxPort end of range
+     */
     public void scanPorts(Integer minPort, Integer maxPort) {
         for (int i = minPort; i <= maxPort; i++)
             ports.add(i);
+
     }
 
-    /*
-    // Перегруженный метод, принимающий перечень портов, и заполняющий массив портов
-    */
-
+    /**
+     * Method, that received enum of ports and add this ports in the list
+     * @param enumPorts enum ports
+     */
     public void scanPorts(String[] enumPorts) {
         for (String enumPort : enumPorts)
             ports.add(Integer.parseInt(enumPort));
+
     }
 
-    /*
-    // Перегруженный метод, принимающий один порт, и заполняющий массив портов
-    */
+    /**
+     * Method for random sort the lists
+     */
+    public void random(){
 
+        Collections.shuffle(ports);
+        Collections.shuffle(hosts);
+
+    }
+
+    /**
+     * Method, that received port and add this port in the list
+     * @param port port
+     */
     public void scanPorts(int port) {
         ports.add(port);
     }
 
-    /*
-    // Метод, принимающий один хост, и заполняющий массив хостов
-    */
-
+    /**
+     * Method, that received host and add this host in the list
+     * @param host host
+     */
     public void scanHosts(String host) {
 
         hosts.add(host);
     }
 
-    /*
-    // Перегруженный метод, принимающий перечень хостов, и заполняющий массив хостов
-    */
-
+    /**
+     * Method that received enum of hosts and add this hosts in the list
+     * @param getHosts enum of hosts
+     */
     public void scanHosts(String[] getHosts) {
 
         hosts.addAll(Arrays.asList(getHosts));
+
     }
 
-    /*
-    // Перегруженный метод, принимающий диапазон хостов, и заполняющий массив хостов
-    */
-
+    /**
+     * Method, that received range of hosts and add this hosts in the list
+     * @param minHost start of range
+     * @param maxHost end of range
+     */
     public void scanHosts(String minHost, String maxHost) {
 
+        //127.0.0.1 - 5 - пример
         // Отделяем конец хоста
-        String[] mn = minHost.split("\\.");
+        String[] last = minHost.split("\\.");
 
         // Диапазон хостов, где а - минимальный, б - максимальный
-        int a = Integer.parseInt(mn[mn.length - 1]);
+        int a = Integer.parseInt(last[last.length - 1]);
         int b = Integer.parseInt(maxHost);
 
         StringBuilder stringBuilder = new StringBuilder();
 
         // "соединяем" хост обратно
-        for (int i = 0; i < mn.length - 1; i++) {
+        for (int i = 0; i < last.length - 1; i++) {
 
-            stringBuilder.append(mn[i]).append(".");
-
+            stringBuilder.append(last[i]).append(".");
         }
 
         // Заполняем массив хостами в нужном диапазоне
+        // 127.0.0.
         for (int i = a; i <= b; i++) {
 
             String h = stringBuilder.toString() + i;
             hosts.add(h);
-
         }
 
     }
 
-    /*
-    // Метод, применяющийся при указании и перечня, и диапазона хостов
-    */
-
+    /**
+     * Method, that used when hosts specified in mixed form
+     * @param enumHosts hosts in mixed form
+     */
     public void  mainHosts(String[] enumHosts){
 
         String[] rangeHosts;
@@ -157,6 +227,7 @@ import java.util.*;
                 rangeHosts = (enumHosts[i].split("-"));
                 rangeHost.add(rangeHosts[0]);
                 rangeHost.add(rangeHosts[1]);
+
                 String a = enumHosts[k];
                 enumHosts[k] = enumHosts[i];
                 enumHosts[i] = a;
@@ -176,12 +247,15 @@ import java.util.*;
         }
     }
 
-    /*
-    // Метод, производящий сканирование
-    */
+    /**
+     * Method, that begin of scan
+     * @param numberHost number of host
+     */
+    public void startScan(int numberHost) {
 
-    public void startScan() {
+        logger.info("Начался процесс сканирования.");
 
+<<<<<<< HEAD
         Thread t = Thread.currentThread();
 
         System.out.println(t);
@@ -195,83 +269,76 @@ import java.util.*;
         while (k <= hosts.size() - 1) {
 
             InetAddress ia = null;
+=======
+        InetAddress ia = null;
+        try {
+            // Возвращаем IP в виде объекта класса InetAddress
+            ia = InetAddress.getByName(hosts.get(numberHost));
+        } catch (UnknownHostException e) {
+            logger.error("Не удалось распознать хост.");
+        }
+>>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
+
+        logger.info("Начато сканирование хоста: " + ia);
+
+        for (int j = 0; j < ports.size(); j++){
+
+            Integer port = ports.get(j);
 
             try {
-                // Возвращаем IP в виде объекта класса InetAddress
-                ia = InetAddress.getByName(hosts.get(k));
-            } catch (UnknownHostException e) {
-                System.out.println("Ошибка!");
-            }
-
-            if ( i == 0) {
-                System.out.println("Сканируемый хост: " + hosts.get(k));
-                System.out.println("Сканируемые порты: ");
-            }
-
-            Integer port = ports.get(i);
-            System.out.print(port);
-
-            try {
-
+                // Создает адрес сокета из IP-адреса и номера порта.
                 InetSocketAddress isa = new InetSocketAddress(ia, port);
                 Socket socket = new Socket();
 
                 // Производится попытка соединения
+                int timeout = 100;
                 socket.connect(isa, timeout);
-                System.out.println(" открыт");
+                logger.info("Подключение к порту прошло успешно: " + port);
 
                 // При успешном соединении, в массив добавляется открытый порт
 
-                Result result = new Result();
-
-                result.setHost(ia);
-                result.setOpenPort(port);
-
-                resultOfScan.add(result);
+                Pair<InetAddress, Integer> results = new Pair<>(ia, port);
+                resultOfScan.add(results);
 
                 socket.close();
 
             } catch (IOException ioe) {
-                System.out.println("");
+                logger.error("Ошибка "+ ioe.getMessage() + " возникла на порту " + port);
             }
 
-            if (port == ports.get(ports.size() - 1)){
-                k++;
-                i = -1;
-                Collections.shuffle(ports);
-            }
-            i++;
         }
 
-        serialization();
+        logger.info("Сканирование завершено.");
+
     }
 
+    /**
+     * Method for serialization
+     */
     public void serialization(){
 
-        if (resultOfScan.size() == 0){
-            System.out.println("Открытых портов не найдено!");
-        }
-
-        ObjectMapper mapper = new ObjectMapper();
-        String res = null;
+        logger.info("Начат процесс сериализации.");
 
         // Записываем в переменную результаты сканирования в формате JSON
-        try {
-            res = mapper.writeValueAsString(resultOfScan);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
+
+        String json = new Gson().toJson(resultOfScan);
+
+        json = String.valueOf((new StringBuilder(json).insert(0, "{\"resultOfScan\":")));
+        json = json.concat("}");
 
         // Cоздаём файл и записываем в него результаты
-        try(FileWriter writer = new FileWriter("jsonResultOfScan.json", false))
+
+        long time = System.currentTimeMillis() / 1000l;
+        try(FileWriter writer = new FileWriter("jsonResultOfScan" + time + ".json", true))
         {
             // Запись строки в файл
-            writer.write(res);
+            writer.write(json);
             // Очистка буфера
             writer.flush();
+            logger.info("Запись в файл прошла успешно.");
         }
         catch(IOException ex){
-            System.out.println("Ошибка! Невозможно записать данные в файл!");
+            logger.info("Ошибка при записи результатов сканирования в файл.");
         }
     }
 }

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf988ab1-198e-453d-b469-8ba4cb87f410" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScanPorts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/Analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/Scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/Threads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/com/company/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScanPorts/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Animal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/AnimalState.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/AnimalType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/AnimalsData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Carnivore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Herbivore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Zoo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cBTx6Lihne0bFBsny4NqKKf26f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../palin" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.company in ZooLife">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="ZooLife" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/src/main/resources/zooAnimals.json&quot;" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ZooLife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Actions" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ActionsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ZooLife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Actions" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AnimalTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarnivoreTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ZooLife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Actions" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CarnivoreTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HerbivoreTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ZooLife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Actions" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.HerbivoreTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest" type="JUnit" factoryName="JUnit">
+      <module name="ZooLife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Actions" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ZooTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <fork_mode value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.company in ZooLife" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ZooLife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Actions" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <fork_mode value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ZooTest" />
+      <item itemvalue="JUnit.ActionsTest" />
+      <item itemvalue="JUnit.AnimalTest" />
+      <item itemvalue="JUnit.CarnivoreTest" />
+      <item itemvalue="JUnit.HerbivoreTest" />
+      <item itemvalue="JUnit.com.company in ZooLife" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf988ab1-198e-453d-b469-8ba4cb87f410" name="Default Changelist" comment="" />
+      <created>1590001229879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590001229879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

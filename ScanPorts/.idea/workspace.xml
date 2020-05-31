@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b80735c-3d3c-4349-bfef-b03f9c8532b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/out/production/dz2/com/company/ReverseWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseWord/src/com/company/ReverseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/jsonResultOfScan.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsonResultOfScan.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Analysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Analysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Analysis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Scanner.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/Threads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/company/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
+>>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,29 +72,70 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForwardLists" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Марк\Desktop\Clone\sberStudy\ScanPorts\src\main\resources" />
+      <recent name="C:\Users\Марк\Desktop\Clone\sberStudy\ScanPorts\logs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.company in ScanPorts">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="ScanPorts" />
+<<<<<<< HEAD
       <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1,87.240.139.194,160.153.136.3 -p 80-82,443,631" />
+=======
+      <option name="PROGRAM_PARAMETERS" value="scan -h 127.0.0.1-2,87.240.139.194-198,160.153.136.3-5 -p 80-82,888-889,631,443 -t 3" />
+>>>>>>> 67640ac11ed6fdd3dc046fd5deb12795b89e6d13
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration name="com.company in ScanPorts" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ScanPorts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <fork_mode value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.com.company in ScanPorts" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,6 +149,22 @@
       <updated>1585404108000</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="59" width="800" height="684" key="#Inspections" timestamp="1585406916190">
