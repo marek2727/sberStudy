@@ -13,7 +13,7 @@ public interface ClientService {
      * Create a new client
      * @param client body of client for create
      */
-    void create(Client client);
+    Client create(Client client);
 
     /**
      * Return the list of all clients

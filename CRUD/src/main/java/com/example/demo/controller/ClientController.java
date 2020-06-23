@@ -21,7 +21,7 @@ import java.util.List;
 public class ClientController {
 
     private final ClientService clientService;
-    private Logger logger = LogManager.getLogger();
+    private Logger logger = LogManager.getLogger("Logger");
 
     /* Эта аннотация говорит, что в этом месте необходимо внедрить зависимость
      В конструктор мы передаем интерфейс ClientService.
@@ -38,23 +38,23 @@ public class ClientController {
      * @param client request body
      * @return http status
      */
-    @PostMapping(value = "/clients")
+    @PostMapping("/clients")
     // RequestBody - значение этого параметра подставляется из тела запроса
     public ResponseEntity<?> create(@RequestBody Client client) {
-        logger.info("Поступил POST запрос.");
+        logger.debug("POST request: " + client);
 
         clientService.create(client);
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        return new ResponseEntity<>(client, HttpStatus.CREATED);
     }
 
     /**
      * This method handles a GET requests for all clients
      * @return http status
      */
-    @GetMapping(value = "/clients")
+    @GetMapping("/clients")
     public ResponseEntity<List<Client>> read() {
 
-        logger.info("Поступил GET запрос по всем клиентам.");
+        logger.debug("GET request by all clients.");
 
         final List<Client> clients = clientService.readAll();
 
@@ -71,7 +71,7 @@ public class ClientController {
     @GetMapping(value = "/clients/{id}")
     public ResponseEntity<Client> read(@PathVariable(name = "id") int id) {
 
-        logger.info("Поступил GET запрос по конкретному клиенту.");
+        logger.debug("GET request by id: " + id);
 
         final Client client = clientService.read(id);
 
@@ -89,7 +89,7 @@ public class ClientController {
     @PutMapping(value = "/clients/{id}")
     public ResponseEntity<?> update(@PathVariable(name = "id") int id, @RequestBody Client client) {
 
-        logger.info("Поступил PUT запрос.");
+        logger.debug("Update " + client);
 
         final boolean updated = clientService.update(client, id);
 
@@ -106,7 +106,7 @@ public class ClientController {
     @DeleteMapping(value = "/clients/{id}")
     public ResponseEntity<?> delete(@PathVariable(name = "id") int id) {
 
-        logger.info("Поступил DELETE запрос.");
+        logger.debug("Deletion by id: " + id);
 
         final boolean deleted = clientService.delete(id);
 

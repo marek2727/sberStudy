@@ -3,6 +3,7 @@ package com.example.demo.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Class, that describes the client entity
@@ -89,4 +90,29 @@ public class Client {
         this.dateBirthday = dateBirthday;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Client client = (Client) o;
+        return id == client.id &&
+                Objects.equals(firstName, client.firstName) &&
+                Objects.equals(lastName, client.lastName) &&
+                Objects.equals(dateBirthday, client.dateBirthday);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, firstName, lastName, dateBirthday);
+    }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", dateBirthday='" + dateBirthday + '\'' +
+                '}';
+    }
 }
