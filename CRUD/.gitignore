@@ -1,5 +1,6 @@
 HELP.md
 target/
+logs/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -16,8 +17,6 @@ target/
 *.iws
 *.iml
 *.ipr
-
-*.log
 
 ### NetBeans ###
 /nbproject/private/
